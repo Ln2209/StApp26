@@ -42,6 +42,17 @@ dd_all, cy_all, ay_all, quality_report = get_data()
 insights = compute_insights()
 
 with st.sidebar:
+    st.image("efrei.jpeg", width=140)
+    st.markdown(
+        "**Hélène LI**  \n"
+        "Program : Data Storytelling Dashboard with Streamlit 2026  \n"
+        "Year : 2026-2027  \n"
+        "Email : helene.li@efrei.net  \n"
+        "LinkedIn : https://www.linkedin.com/in/hélène-li \n"
+        "GitHub : https://github.com/Ln2209/StApp26.git  \n"
+        "Course: Data visualization & Analysis \n"
+        "Project proposed by Prof. Mano Mathew"
+    )
     st.header("Filters")
     pol = st.selectbox("Pollutant", list(POLLUTANTS), format_func=POLLUTANTS.get,
                        help="Citeair sub-index of NO₂ (traffic), PM10 (particles) or O₃ (ozone, higher in summer).")
