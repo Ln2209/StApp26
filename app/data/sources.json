@@ -1,0 +1,11 @@
+{
+  "portal": "https://www.data.gouv.fr/datasets",
+  "dataset_page": "https://www.data.gouv.fr/datasets/indices-qualite-de-lair-citeair-journaliers-par-polluant-sur-lile-de-france-les-departements-les-communes-franciliennes-et-les-arrondissements-parisiens/informations",
+  "licence": "Open Data Commons Open Database License (ODbL) — http://opendatacommons.org/licenses/odbl/summary/",
+  "raw_files": {
+    "indices_QA_commune_IDF_2014.csv": "",
+    "indices_QA_commune_IDF_2015.csv": "",
+    "indices_QA_commune_IDF_2016.csv": ""
+  },
+  "title": "Indices Qualité de l'air (Citeair) journaliers par polluant sur l'Île-de-France, les départements, les communes franciliennes et les arrondissements parisiens"
+}

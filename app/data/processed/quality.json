@@ -1,0 +1,35 @@
+{
+ "n_lignes": 1433364,
+ "n_manquants": 0,
+ "n_doublons": 0,
+ "n_agreges": 9864,
+ "n_negatifs": 0,
+ "n_communes": 1300,
+ "n_jours": 1095,
+ "n_jours_attendus": 1096,
+ "jours_manquants": [
+  "2014-10-20"
+ ],
+ "jours_par_annee": {
+  "2014": 364,
+  "2015": 365,
+  "2016": 366
+ },
+ "date_min": "2014-01-01",
+ "date_max": "2016-12-31",
+ "min": {
+  "no2": 1,
+  "pm10": 2,
+  "o3": 1
+ },
+ "max": {
+  "no2": 85,
+  "pm10": 122,
+  "o3": 105
+ },
+ "communes_par_annee": {
+  "2014": 1300,
+  "2015": 1300,
+  "2016": 1300
+ }
+}
