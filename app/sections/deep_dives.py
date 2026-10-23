@@ -45,9 +45,3 @@ def render(ctx):
     st.subheader("When in the year?")
     st.plotly_chart(viz.heatmap(prep.dep_month(dd, pol), pol, label), **ctx["plot_kw"])
     alt(f"grid of départements × months; the darker the cell, the higher {label}. The most loaded season shows up as dark columns.")
-
-    st.subheader("And inside a département?")
-    cyf = cy[cy.dep.isin(ctx["deps"]) & cy.annee.isin(yrs)]
-    st.plotly_chart(viz.distribution(cyf, pol, label), **ctx["plot_kw"])
-    alt("box plots, one per year, showing the spread of communes' annual means (median, quartiles, extremes).")
-    st.caption("Each box summarises the communes of the selected départements: the height of the box shows the uncertainty linked to where you live.")
